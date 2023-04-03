@@ -18,8 +18,8 @@ repositories {
 	maven {
 		url = "jdbc:mysql://localhost:3306/sys?autoReconnect=true&useSSL=false"
 		credentials {
-			username = "root"
-			password = "Cecilia1%"
+			username = "${USERNAME}"
+			password = "${PASSWORD}"
 		}
 	}
 }
